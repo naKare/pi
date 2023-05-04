@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Selecciona tus campos</title>
+	<link rel="stylesheet" type="text/css" href="./css/plann.css">
+</head>
+<body>
+	<h1>Selecciona tus especificaciones</h1>
+
+	<form>
+		<label>
+			<input type="checkbox" name="campo" value="nombre">
+			Banquete
+		</label>
+
+		<label>
+			<input type="checkbox" name="campo" value="apellido">
+			Musica
+		</label>
+
+		<label>
+			<input type="checkbox" name="campo" value="email">
+			Salon
+		</label>
+
+		<label>
+			<input type="checkbox" name="campo" value="telefono">
+			Mobiliario
+		</label>
+
+		<label>
+			<input type="checkbox" name="campo" value="direccion">
+			Celebracion Religiosa
+		</label>
+
+		<button type="button" onclick="mostrarCampos()">Confirmar</button>
+
+		<div id="campos-seleccionados"></div>
+	</form>
+
+	<script src="script.js"></script>
+</body>
+</html>

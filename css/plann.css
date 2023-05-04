@@ -1,0 +1,22 @@
+h1 {
+	text-align: center;
+}
+
+form {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+button {
+	display: block;
+	margin-top: 20px;
+}
+
+#campos-seleccionados {
+	margin-top: 20px;
+}
